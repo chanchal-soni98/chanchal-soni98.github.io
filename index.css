@@ -37,4 +37,35 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    font-family:  'Ubuntu',sans-serif;
+}
+/* home */
+.profile{
+    background: url("profile.jpeg") no-repeat center;
+    text-align: center;
+    width: auto;
+    margin-left: 50%;
+}
+.home{
+    display: flex;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-color: black;
+    font-family:  'Ubuntu',sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 250px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 65px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
 }

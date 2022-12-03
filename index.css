@@ -9,9 +9,15 @@
 .navbar{
     position: fixed;
     width: 100%;
-    background: crimson;
+    padding: 30px;
+    /* background: crimson; */
     font-family:  'Ubuntu',sans-serif;
+    transition: all 0.3s ease;
+    
+}
+.navbar .sticky{
     padding: 15px;
+    background-color: crimson;
 }
 .max-width{
     max-width: 1300;
@@ -32,12 +38,24 @@
     font-size: 35px;
     font-weight: 600;
 }
+.navbar .logo a span{
+    color: crimson;
+}
+.navbar .sticky a span{
+    color: crimson;
+    transition: color 0.3s ease;
+}
+
 .navbar .nav li a{
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
     font-family:  'Ubuntu',sans-serif;
+}
+.navbar .nav li a:hover{
+    color: crimson;
 }
 /* home */
 .profile{
@@ -68,4 +86,8 @@
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 600;
 }

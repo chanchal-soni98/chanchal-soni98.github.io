@@ -15,9 +15,15 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 45px;
+	width: 100%;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 8%;
 	padding-right: 8%;
+	background-color:#fcfc;
+	position: fixed;
+	z-index: -10px;
 }
 .logo{
 	color: white;

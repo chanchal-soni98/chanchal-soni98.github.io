@@ -266,10 +266,10 @@ background-size: 10px 10px;
 
 
 }
-.about .title::after {
+/* .about .title::after {
   content: "who I am";
  
-}
+} */
 .about .about-content .left {
   width: 45%;
 }
@@ -329,7 +329,7 @@ background-size: 10px 10px;
 .services .title::after,
 .project .title::after {
   background: #111;
-  content: "what i provide";
+  /* content: "what i provide"; */
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -502,9 +502,9 @@ background-size: 10px 10px;
 }
 
 /* project section styling */
-.project .title::after {
+/* .project .title::after {
   content: "see my work";
-}
+} */
 .project .carousel .card {
   background: #222;
   border-radius: 6px;

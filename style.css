@@ -55,7 +55,7 @@ footer {
 }
 
 section{
-  background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px);
+  background-image: radial-gradient(#fff 0.5px, #fff 0.5px);
 background-size: 10px 10px;
 }
 section .title {
@@ -259,7 +259,7 @@ background-position: 0 0,10px 10px; */
 
 /* background-color: #fff;
 opacity: 0.3; */
-background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px);
+background-image: radial-gradient(#fff 0.5px, #fff 0.5px);
 background-size: 10px 10px;
 
 
@@ -615,9 +615,9 @@ background-size: 10px 10px;
   background-color: crimson;
   color: #fff;
 }
-.contact .title::after {
+/* .contact .title::after {
   content: "get in touch";
-}
+} */
 .contact .contact-content .column {
   width: calc(50% - 30px);
 }

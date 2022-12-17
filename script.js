@@ -71,3 +71,9 @@ $(document).ready(function () {
     },
   });
 });
+document.getElementById("pr1").addEventListener("click", ()=> window.open('https://wondrous-marigold-ae1bc8.netlify.app/','_blank') );
+document.getElementById("pr11").addEventListener("click", ()=> window.open('https://github.com/chanchal-soni98/direful-order','_blank') );
+document.getElementById("pr2").addEventListener("click", ()=> window.open('https://capable-dragon-d91ac8.netlify.app/','_blank') );
+document.getElementById("pr21").addEventListener("click", ()=> window.open('https://github.com/chanchal-soni98/outgoing-mine-4990','_blank') );
+
+

@@ -315,55 +315,81 @@ background-size: 10px 10px;
   color: peru;
 }
 
-/* services section styling */
-.services,
-.project {
-  color: #fff;
-  background: #111;
+/* project */
+.eachCard{
+  width: 90%;
+  margin-top: 40px;
 }
-.services .title::before,
-.project .title::before {
-  
+.Projects, .teams{
+  color:#fff;
+  background: #111;
+ 
+}
+.Projects .title::before,
+.teams .title::before{
   background: #fff;
 }
-.services .title::after,
-.project .title::after {
-  background: #111;
-  /* content: "what i provide"; */
+.github{
+  width:60px;
 }
-.services .serv-content .card {
-  width: calc(33% - 20px);
-  background: #222;
+.Projects .title::after,
+.teams .title::after{
+  background: #111;
+  
+}
+.Projects .serv-content .card{
+  background: black;
   text-align: center;
   border-radius: 6px;
   padding: 50px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.services .serv-content .card:hover {
-  /* background: peru; */
-  color: #555;
-  /* change*/
+.Projects .serv-content .card:hover{
+  background: peru;
 }
-.services .serv-content .card .box {
+.projectimg{
+  width: 450px;
+  height: 350px;
+}
+.serv-content img:hover{
+  background: black;
+  cursor: pointer;
+ 
+  
+}
+.serv-content img{
+  margin: 15px;
+}
+.card{
+  display: flex;
+  width: 1200px;
+  gap: 60px;
+}
+.card p{
+  line-height: 40px;
+  text-align: start;
+}
+.Projects .serv-content .card .box{
   transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box {
-  transform: scale(1.05);
+.Projects .serv-content .card:hover .box{
+  transform: scale(1.03);
 }
-.services .serv-content .card i {
+.Projects .serv-content .card i{
   font-size: 50px;
   color: peru;
   transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i {
-  color: #000;
+.Projects .serv-content .card:hover i{
+  color: #fff;
 }
-.services .serv-content .card .text {
+.Projects .serv-content .card .text{
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
+
 
 /* skills section styling */
 
@@ -505,52 +531,7 @@ background-size: 10px 10px;
 /* .project .title::after {
   content: "see my work";
 } */
-.project .carousel .card {
-  background: #222;
-  border-radius: 6px;
-  padding: 25px 35px;
-  text-align: center;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-.project .carousel .card:hover {
 
-  color: #000;
-  color: rgba(255, 255, 255, 0.735);
-
-}
-.project .carousel .card .box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-}
-.project .carousel .card:hover .box {
-  transform: scale(1.05);
-}
-.project .carousel .card .text {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
-}
-
-.repo-links {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 45px;
-  margin-top: 5%;
-
-}
-
-.repo-div {
-  display: flex;
-  width: 35%;
-  border: 1px solid white;
-  justify-content: center;
-  align-items: center;
-}
 
 .demo-div {
   display: flex;
@@ -560,7 +541,7 @@ background-size: 10px 10px;
   align-items: center;
 }
 .techStack {
-  color: purple;
+  color: peru;
 }
 
 .demo-div a,
@@ -889,12 +870,12 @@ footer span a:hover {
     padding-top: 2vw;
     padding-bottom: 8vw;
     text-align: center;
-    background-color: rgba(255, 174, 69, 0.548);
+    background-color: black;
   }
 
   #skills h1 {
     font-size: 6vw;
-    color: #012b42;
+    color: white;
     margin-top: 0.9vw;
   }
   #skills hr {
@@ -924,7 +905,7 @@ footer span a:hover {
     font-size: 3.3vw;
     text-align: center;
     box-sizing: border-box;
-    background-color: #00263a;
+    background-color: gray;
     color: rgb(255, 255, 255);
     border-bottom-left-radius: 20%;
     border-top-left-radius: 25%;
@@ -933,7 +914,7 @@ footer span a:hover {
   }
 
   #tech_skill > div:hover {
-    box-shadow: rgba(0, 238, 255, 0.877) 0px 5px 15px;
+    box-shadow: peru;
     transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
   }
 
@@ -976,7 +957,7 @@ footer span a:hover {
   }
 
   #soft_skill h3 {
-    background-color: #00263b;
+    background-color: gray;
     color: rgb(255, 255, 255);
     padding: 2.4vw;
     margin-bottom: -1.7vw;
@@ -985,15 +966,17 @@ footer span a:hover {
     border-bottom-right-radius: 25%;
     border-top-right-radius: 6px;
     font-size: 3.6vw;
+    margin-top: 4px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   #soft_skill h3:hover {
-    box-shadow: rgba(0, 238, 255, 0.795) 0px 5px 15px;
+    box-shadow: peru;
     transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.25s;
     font-size: 3.25vw;
   }
   #soft_skill_head {
     margin-top: 4vw;
+    
   }
 }
 
@@ -1097,6 +1080,7 @@ footer span a:hover {
   }
 
   #soft_skill h3 {
+    margin-top: 4px;
     background-color: gray;
     color: rgb(255, 255, 255);
     padding: 1.8vw;
@@ -1220,6 +1204,7 @@ footer span a:hover {
   }
 
   #soft_skill h3 {
+    margin-top: 4px;
     background-color: gray;
     color: rgb(255, 255, 255);
     padding: 1.2vw;

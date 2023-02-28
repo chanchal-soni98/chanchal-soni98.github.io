@@ -383,6 +383,8 @@ background-size: 10px 10px;
 }
 .card p{
   line-height: 40px;
+  font-family: sans-serif;
+  font-size: large;
   text-align: start;
 }
 .Projects .serv-content .card .box{

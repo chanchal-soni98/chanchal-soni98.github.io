@@ -77,7 +77,8 @@ document.getElementById("pr211").addEventListener("click", ()=> window.open('htt
 document.getElementById("pr21").addEventListener("click", ()=> window.open('https://github.com/chanchal-soni98/outgoing-mine-4990','_blank') );
 
 document.getElementById("pr31").addEventListener("click", ()=> window.open('https://github.com/Amitvaghamshi/brief-toes-9591','_blank') );
-
-document.getElementById("drive").addEventListener("click", ()=> window.open('https://drive.google.com/drive/folders/1p8XEs2N9zQEcXPGEQlkRQVSMteSUO8aZ?usp=share_link','_blank') );
+document.getElementById("pr41").addEventListener("click", ()=> window.open('https://github.com/chanchal-soni98/Online-Banking-System','_blank') );
+document.getElementById("pr411").addEventListener("click", ()=> window.open('C:\Users\CHANCHAL SONI\Desktop\portfolio\index.html','_blank') );
+document.getElementById("drive").addEventListener("click", ()=> window.open('https://drive.google.com/uc?id=15TrxNUIXH-NJU65Nx4MzPAXTw_gJrWPS&authuser=0&export=download','_blank') );
 
 

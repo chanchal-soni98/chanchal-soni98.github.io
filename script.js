@@ -79,6 +79,9 @@ document.getElementById("pr311").addEventListener("click", ()=> window.open('htt
 document.getElementById("pr31").addEventListener("click", ()=> window.open('https://github.com/Amitvaghamshi/brief-toes-9591','_blank') );
 document.getElementById("pr41").addEventListener("click", ()=> window.open('https://github.com/chanchal-soni98/Online-Banking-System','_blank') );
 document.getElementById("pr411").addEventListener("click", ()=> window.open('https://drive.google.com/file/d/1vW3fjx2-Fw8kViYAgq0uGB36PsR6LA0h/view?usp=share_link','_blank') );
-document.getElementById("drive").addEventListener("click", ()=> window.open('https://drive.google.com/uc?id=15TrxNUIXH-NJU65Nx4MzPAXTw_gJrWPS&authuser=0&export=download','_blank') );
+// document.getElementById("drive").addEventListener("click", ()=> window.open('https://drive.google.com/file/d/1Jh9lnU40VFL5p8DDgUXzmXBa5CCuuSkU/view?usp=share_link','_blank') );
+// function openPdf(){
+//   window.open('https://drive.google.com/file/d/1Jh9lnU40VFL5p8DDgUXzmXBa5CCuuSkU/view?usp=share_link','_blank');
+// }
 
-
+// https://drive.google.com/uc?id=15TrxNUIXH-NJU65Nx4MzPAXTw_gJrWPS&authuser=0&export=download

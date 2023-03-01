@@ -75,10 +75,10 @@ document.getElementById("pr111").addEventListener("click", ()=> window.open('htt
 document.getElementById("pr11").addEventListener("click", ()=> window.open('https://github.com/chanchal-soni98/direful-order','_blank') );
 document.getElementById("pr211").addEventListener("click", ()=> window.open('https://capable-dragon-d91ac8.netlify.app/','_blank') );
 document.getElementById("pr21").addEventListener("click", ()=> window.open('https://github.com/chanchal-soni98/outgoing-mine-4990','_blank') );
-document.getElementById("pr311").addEventListener("click", ()=> window.open('https://drive.google.com/drive/folders/15YOtVy1ptosm1hhJiUMcLgcFbpLAQnTf?usp=share_link','_blank') );
+document.getElementById("pr311").addEventListener("click", ()=> window.open('https://drive.google.com/file/d/10Cr57JWXcCiNq8mJxUKGvDtKXWGiMSwd/view?usp=share_link','_blank') );
 document.getElementById("pr31").addEventListener("click", ()=> window.open('https://github.com/Amitvaghamshi/brief-toes-9591','_blank') );
 document.getElementById("pr41").addEventListener("click", ()=> window.open('https://github.com/chanchal-soni98/Online-Banking-System','_blank') );
-document.getElementById("pr411").addEventListener("click", ()=> window.open('https://drive.google.com/drive/folders/1O_RvsdYGT5nuD2a9FfMt0Je1p3cMvc-9?usp=share_link','_blank') );
+document.getElementById("pr411").addEventListener("click", ()=> window.open('https://drive.google.com/file/d/1vW3fjx2-Fw8kViYAgq0uGB36PsR6LA0h/view?usp=share_link','_blank') );
 document.getElementById("drive").addEventListener("click", ()=> window.open('https://drive.google.com/uc?id=15TrxNUIXH-NJU65Nx4MzPAXTw_gJrWPS&authuser=0&export=download','_blank') );
 
 

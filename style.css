@@ -353,15 +353,15 @@ background-size: 10px 10px;
   
 }
 .Projects .serv-content .card:hover{
-  background: black;  
+  background: b;  
 }
 
 .highlight{
   color: #d37800;
 }
-/* .Projects .serv-content .card:hover .highlight{
+.Projects .serv-content .card:hover .highlight{
   color: #000;
-} */
+}
 
 .projectimg{
   width: 450px;
